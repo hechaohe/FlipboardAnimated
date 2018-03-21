@@ -1,0 +1,6 @@
+framework module Pods_FlipboardAnimated {
+  umbrella header "Pods-FlipboardAnimated-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,6 +15,13 @@
 		10A5AA9E2060B7430044FCA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5AA9D2060B7430044FCA2 /* main.m */; };
 		10A5AAA82060B7430044FCA2 /* FlipboardAnimatedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5AAA72060B7430044FCA2 /* FlipboardAnimatedTests.m */; };
 		10A5AAB32060B7430044FCA2 /* FlipboardAnimatedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5AAB22060B7430044FCA2 /* FlipboardAnimatedUITests.m */; };
+		10A5AAC12060BBDC0044FCA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A5AAC02060BBDC0044FCA2 /* QuartzCore.framework */; };
+		10A5AAC32060BBED0044FCA2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A5AAC22060BBED0044FCA2 /* ImageIO.framework */; };
+		10A5AAC52060BBFE0044FCA2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A5AAC42060BBFE0044FCA2 /* MobileCoreServices.framework */; };
+		10A5AAC72060BC0E0044FCA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A5AAC62060BC0E0044FCA2 /* CoreGraphics.framework */; };
+		28F867C15DA01D7E7CD6B6AE /* Pods_FlipboardAnimatedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F414D9132D808C0AC0EF44 /* Pods_FlipboardAnimatedTests.framework */; };
+		4BA07E410AC30B986F7FCECB /* Pods_FlipboardAnimated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1285A5130809F26CFD1BA39D /* Pods_FlipboardAnimated.framework */; };
+		AD98ABD8473F63C6DE4DD6E8 /* Pods_FlipboardAnimatedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7ADA86E70FC07C01C1799E /* Pods_FlipboardAnimatedUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		10A5AAAE2060B7430044FCA2 /* FlipboardAnimatedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipboardAnimatedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A5AAB22060B7430044FCA2 /* FlipboardAnimatedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipboardAnimatedUITests.m; sourceTree = "<group>"; };
 		10A5AAB42060B7430044FCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A5AAC02060BBDC0044FCA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10A5AAC22060BBED0044FCA2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		10A5AAC42060BBFE0044FCA2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		10A5AAC62060BC0E0044FCA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1285A5130809F26CFD1BA39D /* Pods_FlipboardAnimated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipboardAnimated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ACE557919A845954419046 /* Pods-FlipboardAnimatedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipboardAnimatedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipboardAnimatedTests/Pods-FlipboardAnimatedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2231F8F6998406B3C1476525 /* Pods-FlipboardAnimated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipboardAnimated.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipboardAnimated/Pods-FlipboardAnimated.debug.xcconfig"; sourceTree = "<group>"; };
+		2449FB394C1C1ED585CE4700 /* Pods-FlipboardAnimatedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipboardAnimatedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipboardAnimatedUITests/Pods-FlipboardAnimatedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE6A59802A1112672EC1F58 /* Pods-FlipboardAnimatedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipboardAnimatedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipboardAnimatedTests/Pods-FlipboardAnimatedTests.release.xcconfig"; sourceTree = "<group>"; };
+		89F414D9132D808C0AC0EF44 /* Pods_FlipboardAnimatedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipboardAnimatedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B64F2056CC2967E521B5B0B /* Pods-FlipboardAnimatedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipboardAnimatedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipboardAnimatedUITests/Pods-FlipboardAnimatedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD7ADA86E70FC07C01C1799E /* Pods_FlipboardAnimatedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipboardAnimatedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED35D891E9400980598088B2 /* Pods-FlipboardAnimated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipboardAnimated.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipboardAnimated/Pods-FlipboardAnimated.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A5AAC72060BC0E0044FCA2 /* CoreGraphics.framework in Frameworks */,
+				10A5AAC52060BBFE0044FCA2 /* MobileCoreServices.framework in Frameworks */,
+				10A5AAC32060BBED0044FCA2 /* ImageIO.framework in Frameworks */,
+				10A5AAC12060BBDC0044FCA2 /* QuartzCore.framework in Frameworks */,
+				4BA07E410AC30B986F7FCECB /* Pods_FlipboardAnimated.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F867C15DA01D7E7CD6B6AE /* Pods_FlipboardAnimatedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD98ABD8473F63C6DE4DD6E8 /* Pods_FlipboardAnimatedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +112,8 @@
 				10A5AAA62060B7430044FCA2 /* FlipboardAnimatedTests */,
 				10A5AAB12060B7430044FCA2 /* FlipboardAnimatedUITests */,
 				10A5AA8C2060B7430044FCA2 /* Products */,
+				33D76065D4E45AAA1E2BC34E /* Pods */,
+				7048A8E1452C00AB9D8B1B46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +161,33 @@
 			path = FlipboardAnimatedUITests;
 			sourceTree = "<group>";
 		};
+		33D76065D4E45AAA1E2BC34E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2231F8F6998406B3C1476525 /* Pods-FlipboardAnimated.debug.xcconfig */,
+				ED35D891E9400980598088B2 /* Pods-FlipboardAnimated.release.xcconfig */,
+				20ACE557919A845954419046 /* Pods-FlipboardAnimatedTests.debug.xcconfig */,
+				7DE6A59802A1112672EC1F58 /* Pods-FlipboardAnimatedTests.release.xcconfig */,
+				2449FB394C1C1ED585CE4700 /* Pods-FlipboardAnimatedUITests.debug.xcconfig */,
+				8B64F2056CC2967E521B5B0B /* Pods-FlipboardAnimatedUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7048A8E1452C00AB9D8B1B46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10A5AAC62060BC0E0044FCA2 /* CoreGraphics.framework */,
+				10A5AAC42060BBFE0044FCA2 /* MobileCoreServices.framework */,
+				10A5AAC22060BBED0044FCA2 /* ImageIO.framework */,
+				10A5AAC02060BBDC0044FCA2 /* QuartzCore.framework */,
+				1285A5130809F26CFD1BA39D /* Pods_FlipboardAnimated.framework */,
+				89F414D9132D808C0AC0EF44 /* Pods_FlipboardAnimatedTests.framework */,
+				CD7ADA86E70FC07C01C1799E /* Pods_FlipboardAnimatedUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10A5AAB72060B7430044FCA2 /* Build configuration list for PBXNativeTarget "FlipboardAnimated" */;
 			buildPhases = (
+				5D27B5575EC62E9F08187CFD /* [CP] Check Pods Manifest.lock */,
 				10A5AA872060B7430044FCA2 /* Sources */,
 				10A5AA882060B7430044FCA2 /* Frameworks */,
 				10A5AA892060B7430044FCA2 /* Resources */,
+				2AC83B644A23739084C1911F /* [CP] Embed Pods Frameworks */,
+				EB7F8168E75C10E241D09243 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10A5AABA2060B7430044FCA2 /* Build configuration list for PBXNativeTarget "FlipboardAnimatedTests" */;
 			buildPhases = (
+				8AB6B867D727A8C04D8FB37A /* [CP] Check Pods Manifest.lock */,
 				10A5AA9F2060B7430044FCA2 /* Sources */,
 				10A5AAA02060B7430044FCA2 /* Frameworks */,
 				10A5AAA12060B7430044FCA2 /* Resources */,
+				00B4583C3871027958A1555B /* [CP] Embed Pods Frameworks */,
+				7599B9041388EC705028556E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10A5AABD2060B7430044FCA2 /* Build configuration list for PBXNativeTarget "FlipboardAnimatedUITests" */;
 			buildPhases = (
+				AFBFF1E0BBCE5EAC01405E00 /* [CP] Check Pods Manifest.lock */,
 				10A5AAAA2060B7430044FCA2 /* Sources */,
 				10A5AAAB2060B7430044FCA2 /* Frameworks */,
 				10A5AAAC2060B7430044FCA2 /* Resources */,
+				CC0A61EF1F5AA6FD1D5984DA /* [CP] Embed Pods Frameworks */,
+				D2604C5640EAFDEC27950981 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +324,166 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00B4583C3871027958A1555B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipboardAnimatedTests/Pods-FlipboardAnimatedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AC83B644A23739084C1911F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlipboardAnimated/Pods-FlipboardAnimated-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipboardAnimated/Pods-FlipboardAnimated-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D27B5575EC62E9F08187CFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipboardAnimated-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7599B9041388EC705028556E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipboardAnimatedTests/Pods-FlipboardAnimatedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB6B867D727A8C04D8FB37A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipboardAnimatedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBFF1E0BBCE5EAC01405E00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipboardAnimatedUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0A61EF1F5AA6FD1D5984DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipboardAnimatedUITests/Pods-FlipboardAnimatedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2604C5640EAFDEC27950981 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipboardAnimatedUITests/Pods-FlipboardAnimatedUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7F8168E75C10E241D09243 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipboardAnimated/Pods-FlipboardAnimated-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10A5AA872060B7430044FCA2 /* Sources */ = {
@@ -428,6 +653,7 @@
 		};
 		10A5AAB82060B7430044FCA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2231F8F6998406B3C1476525 /* Pods-FlipboardAnimated.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +667,7 @@
 		};
 		10A5AAB92060B7430044FCA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED35D891E9400980598088B2 /* Pods-FlipboardAnimated.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +681,7 @@
 		};
 		10A5AABB2060B7430044FCA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20ACE557919A845954419046 /* Pods-FlipboardAnimatedTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +696,7 @@
 		};
 		10A5AABC2060B7430044FCA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE6A59802A1112672EC1F58 /* Pods-FlipboardAnimatedTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +711,7 @@
 		};
 		10A5AABE2060B7430044FCA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2449FB394C1C1ED585CE4700 /* Pods-FlipboardAnimatedUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlipboardAnimatedUITests/Info.plist;
@@ -495,6 +725,7 @@
 		};
 		10A5AABF2060B7430044FCA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B64F2056CC2967E521B5B0B /* Pods-FlipboardAnimatedUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlipboardAnimatedUITests/Info.plist;
